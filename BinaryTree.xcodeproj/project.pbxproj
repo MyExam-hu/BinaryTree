@@ -13,6 +13,7 @@
 		B48762011E5EBE550070E7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48761FF1E5EBE550070E7B8 /* Main.storyboard */; };
 		B48762031E5EBE550070E7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48762021E5EBE550070E7B8 /* Assets.xcassets */; };
 		B48762061E5EBE550070E7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48762041E5EBE550070E7B8 /* LaunchScreen.storyboard */; };
+		B48762121E5EBF0B0070E7B8 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B48762111E5EBF0B0070E7B8 /* BinaryTreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B48762021E5EBE550070E7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48762051E5EBE550070E7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48762071E5EBE550070E7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48762101E5EBF0B0070E7B8 /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		B48762111E5EBF0B0070E7B8 /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B48762041E5EBE550070E7B8 /* LaunchScreen.storyboard */,
 				B48762071E5EBE550070E7B8 /* Info.plist */,
 				B48761F61E5EBE550070E7B8 /* Supporting Files */,
+				B48762101E5EBF0B0070E7B8 /* BinaryTreeNode.h */,
+				B48762111E5EBF0B0070E7B8 /* BinaryTreeNode.m */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				B48761FE1E5EBE550070E7B8 /* ViewController.m in Sources */,
 				B48761FB1E5EBE550070E7B8 /* AppDelegate.m in Sources */,
+				B48762121E5EBF0B0070E7B8 /* BinaryTreeNode.m in Sources */,
 				B48761F81E5EBE550070E7B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BinaryTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.item.BinaryTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BinaryTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.item.BinaryTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
