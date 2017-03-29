@@ -71,7 +71,7 @@ node* insert_link_list_index(node *head,int index,datatype x){
         return head;
     }
     else{
-        node *ptr = find_node(head,index-1);
+        node *ptr = find_index(head,index-1);
         node* q = (node*)malloc(sizeof(node));
         q->info = x;
         q->next = ptr->next;
