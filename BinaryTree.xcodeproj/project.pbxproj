@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B47B54C91E8BA62A0086A98A /* ListStructureNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B54C81E8BA62A0086A98A /* ListStructureNode.m */; };
 		B48761F81E5EBE550070E7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48761F71E5EBE550070E7B8 /* main.m */; };
 		B48761FB1E5EBE550070E7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48761FA1E5EBE550070E7B8 /* AppDelegate.m */; };
 		B48761FE1E5EBE550070E7B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48761FD1E5EBE550070E7B8 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B47B54C71E8BA62A0086A98A /* ListStructureNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListStructureNode.h; sourceTree = "<group>"; };
+		B47B54C81E8BA62A0086A98A /* ListStructureNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListStructureNode.m; sourceTree = "<group>"; };
 		B48761F31E5EBE550070E7B8 /* BinaryTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48761F71E5EBE550070E7B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B48761F91E5EBE550070E7B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				B48761F61E5EBE550070E7B8 /* Supporting Files */,
 				B48762101E5EBF0B0070E7B8 /* BinaryTreeNode.h */,
 				B48762111E5EBF0B0070E7B8 /* BinaryTreeNode.m */,
+				B47B54C71E8BA62A0086A98A /* ListStructureNode.h */,
+				B47B54C81E8BA62A0086A98A /* ListStructureNode.m */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				B48761FB1E5EBE550070E7B8 /* AppDelegate.m in Sources */,
 				B48762121E5EBF0B0070E7B8 /* BinaryTreeNode.m in Sources */,
 				B48761F81E5EBE550070E7B8 /* main.m in Sources */,
+				B47B54C91E8BA62A0086A98A /* ListStructureNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +321,7 @@
 				B487620C1E5EBE550070E7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
